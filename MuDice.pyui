@@ -1,0 +1,243 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "7F2BC127-6479-4AD9-9A11-79B699681031",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Player 1",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{204, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "C1EDF007-2817-4801-A7F4-3F4813400317",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Player 2",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {30, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "16DC02FF-E90D-46C3-9FB2-21E26D0F611F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "LP",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{44, 46}, {112, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "2,500",
+          "name" : "label4",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{204, 46}, {30, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "B485A772-DC5C-4536-843D-A078F59E61C0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "LP",
+          "name" : "label5",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{242, 46}, {112, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "2,500",
+          "font_size" : 18,
+          "name" : "label6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 86}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "541DB913-4CDA-4C62-9787-13EE35F186BF",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Label",
+          "name" : "label7",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 126}, {348, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "36B030E6-3C10-4A0C-ABA6-9256718B07AF",
+          "frame" : "{{80, 163}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider1",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 208}, {348, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "class" : "SegmentedControl",
+          "frame" : "{{120, 166}, {120, 29}}",
+          "uuid" : "39FD6B59-9F84-4007-9818-B7B4340799AC",
+          "segments" : "Player 1|Player 2",
+          "name" : "segmentedcontrol1",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 168}, {348, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "9E5481E0-B1A6-495F-940E-D3F40D3BB198",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Target",
+          "name" : "label8",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 245}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "alpha" : 1,
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "Damage",
+          "uuid" : "3248C407-135A-42F3-B474-7FE8021D8B4C",
+          "class" : "Button",
+          "font_bold" : false,
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{140, 245}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "24ACF2FC-64D4-4C17-910B-5010DB2322C8",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "Recovery",
+          "class" : "Button",
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{274, 245}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "E89BC19B-06E9-43B6-9C76-3BA653F85144",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "Undo",
+          "class" : "Button",
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {360, 360}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
