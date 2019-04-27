@@ -67,7 +67,7 @@
           "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
           "class" : "Label",
           "alignment" : "right",
-          "text" : "2,500",
+          "text" : "----",
           "name" : "label4",
           "font_name" : "<System>"
         },
@@ -103,11 +103,11 @@
           "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
           "class" : "Label",
           "alignment" : "right",
-          "text" : "2,500",
+          "text" : "----",
           "font_size" : 18,
           "name" : "label6"
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
@@ -150,11 +150,11 @@
         "frame" : "{{6, 208}, {348, 29}}",
         "class" : "SegmentedControl",
         "attributes" : {
-          "class" : "SegmentedControl",
+          "name" : "segmentedcontrol1",
           "frame" : "{{120, 166}, {120, 29}}",
           "uuid" : "39FD6B59-9F84-4007-9818-B7B4340799AC",
+          "class" : "SegmentedControl",
           "segments" : "Player 1|Player 2",
-          "name" : "segmentedcontrol1",
           "flex" : "LR"
         },
         "selected" : false
@@ -225,17 +225,17 @@
           "name" : "button3",
           "font_size" : 15
         },
-        "selected" : true
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {360, 360}}",
     "class" : "View",
     "attributes" : {
-      "name" : "",
-      "enabled" : true,
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
       "flex" : ""
     },
     "selected" : false
