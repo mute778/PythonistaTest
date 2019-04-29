@@ -1,18 +1,44 @@
 import ui
+import random
 
-PLAYER_01 = 0
-PLAYER_02 = 1
-DAMAGE = 0
-RECOVERY = 1
-Player01LP = 2500
-Player02LP = 2500
+# Const
+MIN_CELL = 2
+MAX_CELL = 100
+MIN_DICE_NUM = 1
+MAX_DICE_NUM = 100
 
-v = ui.load_view()
-v.present('sheet')
+# Values
+Cell = 6
+DiceNum = 1
+ResultCell = []
 
-O_p1lp = v['label4']
-O_p2lp = v['label6']
-
+def change_cell(sender):
+	value = int(sender.title)
+	global Cell
+	Cell += value
+	if Cell < MIN_CELL:
+		Cell = MIN_CELL
+	elif Cell > MAX_CELL:
+		Cell = MAX_CELL
+	O_cellText.text = str(Cell)
+	
+def change_dice_num(sender):
+	value = int(sender.title)
+	global DiceNum
+	DiceNum += value
+	if DiceNum < MIN_DICE_NUM:
+		DiceNum = MIN_DICE_NUM
+	elif  DiceNum > MAX_DICE_NUM:
+		DiceNum = MAX_DICE_NUM
+	O_diceNumText.text = str(DiceNum)
+	
+def roll_dice(sender):
+	totalValue = 0
+	for cnt in range(DiceNum):
+		roll = random.randint(1, Cell)
+		totalValue += roll
+	O_totalText.text = str(totalValue)
+	
 def update_player_life():
 	O_p1lp.text = "{:,}".format(Player01LP)
 	O_p2lp.text = "{:,}".format(Player02LP)
@@ -27,4 +53,15 @@ def change_life_value(target, value):
 def init_setting():
 	update_player_life()
 	
-init_setting()
+#init_setting()
+
+v = ui.load_view()
+v.present('sheet')
+O_debug = v['text_debug']
+O_cellText = v['text_cell']
+O_diceNumText = v['text_diceNum']
+O_totalText = v['text_total']
+
+O_cellText.text = str(Cell)
+O_diceNumText.text = str(DiceNum)
+

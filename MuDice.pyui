@@ -9,11 +9,11 @@
         "class" : "Label",
         "attributes" : {
           "font_size" : 18,
-          "frame" : "{{45, 104}, {150, 32}}",
-          "uuid" : "7F2BC127-6479-4AD9-9A11-79B699681031",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "BEB22845-CCF5-4F9B-A67D-22502E8CB044",
           "class" : "Label",
-          "alignment" : "center",
-          "text" : "Player 1",
+          "alignment" : "left",
+          "text" : "Cell",
           "name" : "label1",
           "font_name" : "<System>"
         },
@@ -23,91 +23,87 @@
         "nodes" : [
 
         ],
-        "frame" : "{{204, 6}, {150, 32}}",
+        "frame" : "{{6, 46}, {40, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "change_cell",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "-5",
+          "uuid" : "FE383C33-6C8F-420C-93A2-70DA846491D1",
+          "class" : "Button",
+          "name" : "btn_cellMinus5",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{54, 46}, {40, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "change_cell",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "-1",
+          "uuid" : "5D64669E-3F8D-46F0-96F9-2EE2591E7017",
+          "class" : "Button",
+          "name" : "btn_cellMinus1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{314, 46}, {40, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "change_cell",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "+5",
+          "uuid" : "C5FD60A6-2C1F-4073-84B7-DEDE6C78EC5E",
+          "class" : "Button",
+          "name" : "btn_cellPlus5",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{266, 46}, {40, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "change_cell",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "+1",
+          "uuid" : "36A762E7-F4B0-4CC0-98AD-2D5B3AFAFF1E",
+          "class" : "Button",
+          "name" : "btn_cellPlus1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 46}, {156, 32}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "text_cell",
           "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "C1EDF007-2817-4801-A7F4-3F4813400317",
+          "uuid" : "8DAFD5B7-0D8F-4795-B7BF-4D52440D282C",
           "class" : "Label",
           "alignment" : "center",
-          "text" : "Player 2",
-          "name" : "label2",
+          "text" : "0",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{6, 46}, {30, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "16DC02FF-E90D-46C3-9FB2-21E26D0F611F",
-          "class" : "Label",
-          "alignment" : "center",
-          "text" : "LP",
-          "name" : "label3",
-          "font_name" : "<System>"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{44, 46}, {112, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
-          "class" : "Label",
-          "alignment" : "right",
-          "text" : "----",
-          "name" : "label4",
-          "font_name" : "<System>"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{204, 46}, {30, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "B485A772-DC5C-4536-843D-A078F59E61C0",
-          "class" : "Label",
-          "alignment" : "center",
-          "text" : "LP",
-          "name" : "label5",
-          "font_name" : "<System>"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{242, 46}, {112, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_name" : "<System>",
-          "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "6D34ADBE-E17F-4C34-B92C-8C1D969066EF",
-          "class" : "Label",
-          "alignment" : "right",
-          "text" : "----",
-          "font_size" : 18,
-          "name" : "label6"
-        },
-        "selected" : true
       },
       {
         "nodes" : [
@@ -116,63 +112,13 @@
         "frame" : "{{6, 86}, {150, 32}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "label3",
           "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "541DB913-4CDA-4C62-9787-13EE35F186BF",
-          "class" : "Label",
-          "alignment" : "right",
-          "text" : "Label",
-          "name" : "label7",
-          "font_name" : "<System>"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{6, 126}, {348, 34}}",
-        "class" : "Slider",
-        "attributes" : {
-          "uuid" : "36B030E6-3C10-4A0C-ABA6-9256718B07AF",
-          "frame" : "{{80, 163}, {200, 34}}",
-          "value" : 0.5,
-          "class" : "Slider",
-          "name" : "slider1",
-          "flex" : "W"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{6, 208}, {348, 29}}",
-        "class" : "SegmentedControl",
-        "attributes" : {
-          "name" : "segmentedcontrol1",
-          "frame" : "{{120, 166}, {120, 29}}",
-          "uuid" : "39FD6B59-9F84-4007-9818-B7B4340799AC",
-          "class" : "SegmentedControl",
-          "segments" : "Player 1|Player 2",
-          "flex" : "LR"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{6, 168}, {348, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "frame" : "{{105, 164}, {150, 32}}",
-          "uuid" : "9E5481E0-B1A6-495F-940E-D3F40D3BB198",
+          "uuid" : "A189594D-393C-473A-A6A0-4DD52E2AA641",
           "class" : "Label",
           "alignment" : "left",
-          "text" : "Target",
-          "name" : "label8",
+          "text" : "DiceNum",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -181,16 +127,15 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 245}, {80, 32}}",
+        "frame" : "{{6, 126}, {40, 32}}",
         "class" : "Button",
         "attributes" : {
-          "alpha" : 1,
+          "action" : "change_dice_num",
           "frame" : "{{140, 164}, {80, 32}}",
-          "title" : "Damage",
-          "uuid" : "3248C407-135A-42F3-B474-7FE8021D8B4C",
+          "title" : "-5",
+          "uuid" : "5994C2CF-06CC-4E30-AD92-AC134444B31D",
           "class" : "Button",
-          "font_bold" : false,
-          "name" : "button1",
+          "name" : "btn_diceMinus5",
           "font_size" : 15
         },
         "selected" : false
@@ -199,14 +144,15 @@
         "nodes" : [
 
         ],
-        "frame" : "{{140, 245}, {80, 32}}",
+        "frame" : "{{54, 126}, {40, 32}}",
         "class" : "Button",
         "attributes" : {
-          "uuid" : "24ACF2FC-64D4-4C17-910B-5010DB2322C8",
+          "action" : "change_dice_num",
           "frame" : "{{140, 164}, {80, 32}}",
-          "title" : "Recovery",
+          "title" : "-1",
+          "uuid" : "3E89AE60-874B-4150-AF78-FF8284D8B99C",
           "class" : "Button",
-          "name" : "button2",
+          "name" : "btn_diceMinus1",
           "font_size" : 15
         },
         "selected" : false
@@ -215,15 +161,164 @@
         "nodes" : [
 
         ],
-        "frame" : "{{274, 245}, {80, 32}}",
+        "frame" : "{{314, 126}, {40, 32}}",
         "class" : "Button",
         "attributes" : {
-          "uuid" : "E89BC19B-06E9-43B6-9C76-3BA653F85144",
+          "action" : "change_dice_num",
           "frame" : "{{140, 164}, {80, 32}}",
-          "title" : "Undo",
+          "title" : "+5",
+          "uuid" : "24D16D0A-B0BE-4213-AA6A-F509040FB8B7",
           "class" : "Button",
-          "name" : "button3",
+          "name" : "btn_dicePlus5",
           "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{266, 126}, {40, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "change_dice_num",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "+1",
+          "uuid" : "B03708EF-62CF-404C-9D4F-9A8044B26624",
+          "class" : "Button",
+          "name" : "btn_dicePlus1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 126}, {156, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "text_diceNum",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "9DA25713-6540-43D5-AE7F-C24BBFE6C61C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "0",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 166}, {342, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "roll_dice",
+          "frame" : "{{140, 164}, {80, 32}}",
+          "title" : "Roll",
+          "uuid" : "79904F36-1CEE-4626-BCF8-B0CA5AFBAC21",
+          "class" : "Button",
+          "name" : "btn_roll",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 206}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "60CFDEAB-43B0-4BDA-A6AA-06D0C3C96885",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Result",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 246}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label4",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "59DE5A9C-C48E-4EFE-BF35-8F8F0912EC82",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Total",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 286}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "text_total",
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "86AB40A7-16FB-4001-A0B4-F2107A90D7F9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{164, 206}, {190, 148}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "4CD87A16-4586-40B0-99B9-75B276D24894",
+          "editing" : false,
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{80, 80}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 1,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "tableview1",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 326}, {150, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "frame" : "{{105, 164}, {150, 32}}",
+          "uuid" : "45EB2005-2736-4F27-8A64-BFCCD8067B73",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "debug",
+          "name" : "text_debug",
+          "font_name" : "<System>"
         },
         "selected" : false
       }
@@ -231,11 +326,11 @@
     "frame" : "{{0, 0}, {360, 360}}",
     "class" : "View",
     "attributes" : {
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
       "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "name" : "",
       "flex" : ""
     },
     "selected" : false
